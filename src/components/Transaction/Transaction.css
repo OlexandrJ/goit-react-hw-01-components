@@ -1,0 +1,7 @@
+.transaction-history {
+    display: flex;
+        align-items: center;
+        list-style: none;
+        flex-wrap: wrap;
+        flex-direction: column;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Statistics.css';
 
 const getRandomColor = () => {
   const letters = '0123456789ABCDEF';
