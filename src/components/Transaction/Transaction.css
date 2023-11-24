@@ -1,7 +1,16 @@
-.transaction-history {
-    display: flex;
-        align-items: center;
-        list-style: none;
-        flex-wrap: wrap;
-        flex-direction: column;
+ .transaction-history {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.transaction-history th,
+.transaction-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.transaction-history th {
+    background-color: #f2f2f2;
 }

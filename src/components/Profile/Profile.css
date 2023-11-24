@@ -1,8 +1,42 @@
-.profile, .description {
+.profile {
     display: flex;
     align-items: center;
-    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    width: auto;
+    padding: 0;
+}
+
+.profile-avatar {
+    width: 250px;
+    height: auto;
+}
+
+.profile-name {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     font-size: 18px;
+}
+
+.label {
+    font-weight: 700;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
 }
